@@ -11,7 +11,7 @@ public class Client : MonoBehaviour
     public static int dataBufferSize = 4096;
 
     //ip of local host
-    public string ip = "127.0.0.1";//192.168.0.55";network local = 192.168.0.3 machine local = //"127.0.0.1"; Public ip = "184.99.55.113"
+    public string ip = "127.0.0.1";
     public int port = 26950;
     public int myId = 0;
     public TCP tcp;
