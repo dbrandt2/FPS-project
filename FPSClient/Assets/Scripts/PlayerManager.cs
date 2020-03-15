@@ -10,7 +10,7 @@ public class PlayerManager : MonoBehaviour
     public float maxHealth = 100f;
     public MeshRenderer model;
 
-    /*public void Initialized(int __id, string __username)
+    public void Initialize(int __id, string __username)
     {
         id = __id;
         username = __username;
@@ -35,5 +35,5 @@ public class PlayerManager : MonoBehaviour
     {
         model.enabled = true;
         SetHealth(maxHealth);
-    } */
+    } 
 }

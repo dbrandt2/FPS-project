@@ -11,14 +11,18 @@ public enum ServerPackets
     welcome = 1,
     spawnPlayer,
     playerPosition,
-    playerRotation
+    playerRotation,
+    playerDisonnected,
+    playerHealth,
+    playerRespawned
 }
 
 ///Sent form client to server
 public enum ClientPackets
 {
     welcomeReceived = 1,
-    playerMovement
+    playerMovement,
+    playerShoot
 
 }
 

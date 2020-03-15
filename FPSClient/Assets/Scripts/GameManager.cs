@@ -36,9 +36,7 @@ public class GameManager : MonoBehaviour
             __player = Instantiate(playerPrefab, __position, __rotation);
         }
 
-        __player.GetComponent<PlayerManager>().id = __id;
-        __player.GetComponent<PlayerManager>().username = __username;
-        //__player.GetComponent<PlayerManager>().Initialize(__id, __username);
+        __player.GetComponent<PlayerManager>().Initialize(__id, __username);
         players.Add(__id, __player.GetComponent<PlayerManager>());
     }
 }
